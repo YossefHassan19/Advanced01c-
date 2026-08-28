@@ -122,6 +122,22 @@
 
             #endregion
 
-    }
+            #region Question09
+
+            //What is the 'new()' constraint? Write an example.
+
+            //Specifies that the type argument must have a public parameterless constructor, allowing the generic class to instantiate objects of type T using new T().
+
+            //public class Creator<T> where T : new()
+            //{
+            //public T CreateInstance()
+            //{
+            //    return new T();
+            //}
+            //}
+
+            #endregion
+
+        }
     }
 }
