@@ -109,6 +109,19 @@
 
             #endregion
 
+            #region Question08
+
+            //What is the 'class' constraint? Write an example.
+
+            //Specifies that the type argument must be a reference type
+
+            //public class ReferenceContainer<T> where T : class
+            //{
+            //public T Value { get; set; }
+            //}
+
+            #endregion
+
     }
     }
 }
