@@ -263,6 +263,16 @@
 
             #endregion
 
+            #region Question19
+
+            //How can you inherit from a generic class?
+
+            //public class IntBox : Box<int> { }
+            //public class CustomBox<T> : Box<T> { }
+            //public class KeyedBox<TKey, TValue> : Box<TValue> { }
+
+            #endregion
+
         }
     }
 }
