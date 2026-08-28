@@ -273,6 +273,67 @@
 
             #endregion
 
-        }
+            #region Question20
+
+            //Complete Exercise - Create a generic Cache<TKey, TValue>with Add, Get, Remove, Contains, and expiration support.
+
+            //using System;
+            //using System.Collections.Generic;
+
+            //public class CacheItem<TValue>
+            //{
+            //public TValue Value { get; set; }
+            //public DateTime ExpirationTime { get; set; }
+
+            //public bool IsExpired => DateTime.Now > ExpirationTime;
+            //}
+
+            //public class Cache<TKey, TValue>
+            //{
+            //private readonly Dictionary<TKey, CacheItem<TValue>> _store = new Dictionary<TKey, CacheItem<TValue>>();
+
+            //public void Add(TKey key, TValue value, TimeSpan duration)
+            //{
+            //    _store[key] = new CacheItem<TValue>
+            //    {
+            //        Value = value,
+            //        ExpirationTime = DateTime.Now.Add(duration)
+            //    };
+            //}
+
+            //public TValue Get(TKey key)
+            //{
+            //    if (_store.TryGetValue(key, out var item))
+            //    {
+            //        if (!item.IsExpired)
+            //        {
+            //            return item.Value;
+            //        }
+            //        _store.Remove(key); // Auto-cleanup if expired
+            //    }
+            //    return default(TValue);
+            //}
+
+            //public bool Remove(TKey key)
+            //{
+            //    return _store.Remove(key);
+            //}
+
+            //public bool Contains(TKey key)
+            //{
+            //    if (_store.TryGetValue(key, out var item))
+            //    {
+            //        if (!item.IsExpired)
+            //            return true;
+
+            //        _store.Remove(key);
+            //    }
+            //    return false;
+            //}
+            //}
+
+            #endregion
+
+    }
     }
 }
