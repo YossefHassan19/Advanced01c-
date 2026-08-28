@@ -254,6 +254,15 @@
 
             #endregion
 
+            #region Question18
+
+            //How do static members work in generic types?
+
+            //Each closed generic type has its own separate copy of static members.
+            //Box<int> and Box<string> have completely separate static fields and counter values
+
+            #endregion
+
         }
     }
 }
