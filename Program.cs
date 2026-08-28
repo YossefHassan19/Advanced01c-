@@ -154,6 +154,22 @@
 
             #endregion
 
+            #region Question11
+
+            //What is the base class constraint? Write an example.
+
+            //Specifies that the type argument must inherit from a specific base class
+
+            //public class Animal { }
+            //public class Dog : Animal { }
+
+            //public class AnimalShelter<T> where T : Animal
+            //{
+            //public T Resident { get; set; }
+            //}
+
+            #endregion
+
     }
     }
 }
