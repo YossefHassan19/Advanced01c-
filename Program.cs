@@ -245,6 +245,15 @@
 
             #endregion
 
+            #region Question17
+
+            //What is the difference between covariance and contravariance?
+
+            //covariance used keyword out, Used for output (return values), Allows derived type, interface IProduct<out T>
+            //contravariance used keyword in, Used for input (in parameters), Allows base type, interface IProcessor<in T>
+
+            #endregion
+
         }
     }
 }
