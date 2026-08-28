@@ -55,6 +55,21 @@
 
             #endregion
 
+            #region Question04
+
+            //What is a generic method? Write Swap<T> method.
+
+            //A method can be generic even if the class containing it is not generic. The type parameter list (<T>) is placed directly after the method name.
+
+            //public static void Swap<T>(ref T a, ref T b)
+            //{
+            //T temp = a;
+            //a = b;
+            //b = temp;
+            //}
+
+            #endregion
+
         }
     }
 }
