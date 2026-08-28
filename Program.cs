@@ -81,6 +81,21 @@
 
             #endregion
 
+            #region Question06
+
+            //What is a generic interface? Write IRepository<T>.
+
+            //An interface defined with type parameters. Any class implementing a generic interface must supply the type arguments
+
+            //public interface IRepository<T>
+            //{
+            //void Add(T item);
+            //T Get(int id);
+            //List<T> GetAll();
+            //}
+
+            #endregion
+
     }
     }
 }
