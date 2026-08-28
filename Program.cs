@@ -35,6 +35,26 @@
 
             #endregion
 
+            #region Question03
+
+            //What are multiple type parameters? Write Pair<TKey, TValue>.
+
+            //Generic classes can have more than one type parameter separated by commas to handle multiple independent types
+
+            //public class Pair<TKey, TValue>
+            //{
+            //public TKey Key { get; set; }
+            //public TValue Value { get; set; }
+
+            //public Pair(TKey key, TValue value)
+            //{
+            //    Key = key;
+            //    Value = value;
+            //}
+            //}
+
+            #endregion
+
         }
     }
 }
