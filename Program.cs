@@ -70,6 +70,17 @@
 
             #endregion
 
-        }
+            #region Question05
+
+            //Write a generic method FindMax<T> that finds maximum value
+
+            //public static T FindMax<T>(T a, T b) where T : IComparable<T>
+            //{
+            //return a.CompareTo(b) > 0 ? a : b;
+            //}
+
+            #endregion
+
+    }
     }
 }
