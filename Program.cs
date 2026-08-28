@@ -187,6 +187,14 @@
 
             #endregion
 
-    }
+            #region Question13
+
+            //What does the 'default' keyword do in generics?
+
+            //The default keyword returns the default value of a type parameter T: , null for refrence , 0 for value
+
+            #endregion
+
+        }
     }
 }
