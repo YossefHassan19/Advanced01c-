@@ -138,6 +138,22 @@
 
             #endregion
 
-        }
+            #region Question10
+
+            //What is the interface constraint? Write an example.
+
+            //Specifies that the type argument must implement a specific interface, allowing access to that interface's members safely
+
+            //public class Printer<T> where T : IComparable<T>
+            //{
+            //public int Compare(T item1, T item2)
+            //{
+            //    return item1.CompareTo(item2);
+            //}
+            //}
+
+            #endregion
+
+    }
     }
 }
