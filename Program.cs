@@ -217,6 +217,20 @@
 
             #endregion
 
-    }
+            #region Question15
+
+            //What is covariance? Explain the 'out' keyword.
+
+            //Covariance allows you to use a more derived type
+            //Use to specify that the type parameter is used only as output (return type)
+
+            //interface IProduct<out T>
+            //{
+            //T Get();
+            //}
+
+            #endregion
+
+        }
     }
 }
