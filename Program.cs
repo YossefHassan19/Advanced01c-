@@ -231,6 +231,20 @@
 
             #endregion
 
+            #region Question16
+
+            //What is contravariance? Explain the 'in' keyword.
+
+            //Contravariance allows you to use a more generic (base) type than originally specified
+            //Use to specify that the type parameter is used only as input (in parameter)
+
+            //interface IProcessor<in T>
+            //{
+            //void process(T item);
+            //}
+
+            #endregion
+
         }
     }
 }
