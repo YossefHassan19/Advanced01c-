@@ -96,6 +96,19 @@
 
             #endregion
 
+            #region Question07
+
+            //What is the 'struct' constraint? Write an example.
+
+            //Allows you to specify which types can be used as type arguments for a generic type or method
+
+            //public class StructContainer<T> where T : struct
+            //{
+            //public T Value { get; set; }
+            //}
+
+            #endregion
+
     }
     }
 }
