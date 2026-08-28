@@ -170,6 +170,23 @@
 
             #endregion
 
+            #region Question12
+
+            //How do you apply multiple constraints? Write an example.
+
+            //You can combine multiple constraints for a type parameter. The class/struct constraint must come first, followed by interface constraints, and new() must be last.
+
+            //public class Repository<T> where T : class, IComparable<T>, new()
+            //{
+            //public T CreateAndCompare(T other)
+            //{
+            //    T newItem = new T();
+            //    return newItem;
+            //}
+            //}
+
+            #endregion
+
     }
     }
 }
